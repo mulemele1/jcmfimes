@@ -668,6 +668,9 @@ swiper-btn {
     .cast-title{
         font-size: 00.9rem;
     }
+    img {
+        width: 85%;
+    }
     
 }
 
@@ -693,6 +696,9 @@ swiper-btn {
     .play-container {
         margin-top: 7rem !important;
     }
+    img {
+        width: 70%;
+    }
     .movie-box{
         height: 300px;
     }
@@ -714,6 +720,9 @@ swiper-btn {
     }
     .movie-box{
         height: 285px;
+    }
+    img {
+        width: 60%;
     }
    
     .watch-btn .bx {
