@@ -172,7 +172,7 @@ section{
 
 .home-text{
     padding-left: 40px;
-    margin: 200px 40px -30px;
+    margin: 100px 30px -30px;
         
 }
 
@@ -230,7 +230,7 @@ section{
     border: 1px solid hsl(200 100% 99% / 5%);
     margin-bottom: 2rem;
     margin-top: -5rem;
-    
+    border-radius: 6px;
 }
 /*.movies-container1{
     margin-bottom: -2rem;
@@ -241,6 +241,8 @@ section{
 .heading-title {
     font-size: 1.2rem;
     font-weight: 500;
+    border-radius: 6px;
+    
 }
 
 .movie-box {
@@ -629,7 +631,7 @@ swiper-btn {
     .close-video {
         top: 0.5rem;
     }
-}
+    }
 
 @media (max-width: 514px){
     .home{
@@ -638,12 +640,17 @@ swiper-btn {
     
     .heading{
         padding: 10px;
+        border-radius: 6px;
+    
     }
     .heading2{
         padding: 10px;
+        border-radius: 6px;
+    
     }
     .heading-title{
         font-size: 1rem;
+        border-radius: 6px;    
     }
     .play-text{
         padding: 20px;
@@ -703,9 +710,11 @@ swiper-btn {
     .movie-box{
         height: 285px;
     }
-    .watch-btn .bx{
-        width: 35px;
-        height: 35px;
+   
+    .watch-btn .bx {
+        width: 34px;
+        height: 32px;
+
     }
     .navbar{
         justify-content: space-around;
@@ -716,6 +725,19 @@ swiper-btn {
     }
     .about-movie p{
         text-align: justify;
+    }
+    .home-text p {
+        font-size: 0.75rem;
+    }
+    .watch-btn span {
+        font-size: 0.7rem;
+    }
+    .heading2 {
+        margin-top: -14rem;
+        padding: 3px;
+        border-radius: 6px;
+        padding-top: 10px;
+        top: 2%;
     }
     
 }
