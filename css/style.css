@@ -171,27 +171,28 @@ section{
 }
 
 .home-text{
-    padding-left: 100px;
-    margin: 250px 555px -30px;
+    padding-left: 40px;
+    margin: 200px 40px -30px;
         
 }
 
 .home-text p {
     font-size: 1.25rem;
     margin: -5px 0 5px;
-    color: #f8cb02;
+    color: #fafafa;
 }
 
 .watch-btn {
     display: flex;
-    align-items: baseline;
-    padding-left: 5px;
+    align-items: center;
+    /*padding-left: 5px;*/
+    column-gap: 0.8rem;
     
 }
 
 .watch-btn .bx {
     font-size: 21px;
-    background: var(--main-color);
+    background: #fafafa;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -201,7 +202,7 @@ section{
 }
 
 .watch-btn .bx:hover {
-    background: var(--hover-color);
+    background: #8181eb;
 }
 
 .watch-btn span {
