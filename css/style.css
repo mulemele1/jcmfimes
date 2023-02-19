@@ -229,7 +229,7 @@ section{
     padding: 8px 14px;
     border: 1px solid hsl(200 100% 99% / 5%);
     margin-bottom: 2rem;
-    margin-top: -5rem;
+    margin-top: -8rem;
     border-radius: 6px;
 }
 /*.movies-container1{
@@ -646,7 +646,7 @@ swiper-btn {
     .heading2{
         padding: 10px;
         border-radius: 6px;
-    
+        margin-top: -11rem;
     }
     .heading-title{
         font-size: 1rem;
@@ -700,6 +700,11 @@ swiper-btn {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1rem;
     }
+    .heading2{
+        padding: 10px;
+        border-radius: 6px;
+        margin-top: -14rem;
+    }
     
 }
 
@@ -733,7 +738,7 @@ swiper-btn {
         font-size: 0.7rem;
     }
     .heading2 {
-        margin-top: -8rem;
+        margin-top: -14rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
