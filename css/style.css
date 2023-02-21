@@ -633,7 +633,7 @@ swiper-btn {
     }
 
     .heading2 {
-            margin-top: -14rem;
+            margin-top: -11rem;
             padding: 3px;
             border-radius: 6px;
             padding-top: 10px;
@@ -718,7 +718,7 @@ swiper-btn {
     .heading2{
         padding: 10px;
         border-radius: 6px;
-        margin-top: -8rem;
+        margin-top: -14rem;
     }
     
 }
@@ -756,7 +756,7 @@ swiper-btn {
         font-size: 0.7rem;
     }
     .heading2 {
-        margin-top: -14rem;
+        margin-top: -11rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
@@ -764,10 +764,10 @@ swiper-btn {
     }
     
 }
-
-@media (max-width: 356px) {
+/*
+@media (max-width: 480px) {
     .heading2 {
-        margin-top: -8rem;
+        margin-top: -14rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
@@ -775,12 +775,32 @@ swiper-btn {
     }
 }
 
-@media (max-width: 316px) {
+@media (max-width: 768px) {
     .heading2 {
-        margin-top: -8rem;
+        margin-top: -17rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
         top: 2%;
     }
 }
+@media (max-width: 1024px) {
+    .heading2 {
+        margin-top: -14rem;
+        padding: 3px;
+        border-radius: 6px;
+        padding-top: 10px;
+        top: 2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .heading2 {
+        margin-top: -11rem;
+        padding: 3px;
+        border-radius: 6px;
+        padding-top: 10px;
+        top: 2%;
+    }
+}
+*/
