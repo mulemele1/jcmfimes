@@ -709,7 +709,7 @@ swiper-btn {
     .heading2{
         padding: 10px;
         border-radius: 6px;
-        margin-top: -14rem;
+        margin-top: -8rem;
     }
     
 }
@@ -747,11 +747,31 @@ swiper-btn {
         font-size: 0.7rem;
     }
     .heading2 {
-        margin-top: -14rem;
+        margin-top: -4rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
         top: 2%;
     }
     
+}
+
+@media (max-width: 356px) {
+    .heading2 {
+        margin-top: -8rem;
+        padding: 3px;
+        border-radius: 6px;
+        padding-top: 10px;
+        top: 2%;
+    }
+}
+
+@media (max-width: 316px) {
+    .heading2 {
+        margin-top: -8rem;
+        padding: 3px;
+        border-radius: 6px;
+        padding-top: 10px;
+        top: 2%;
+    }
 }
