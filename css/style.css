@@ -631,6 +631,15 @@ swiper-btn {
     .close-video {
         top: 0.5rem;
     }
+
+    .heading2 {
+            margin-top: -14rem;
+            padding: 3px;
+            border-radius: 6px;
+            padding-top: 10px;
+            top: 2%;
+        }
+  
     }
 
 @media (max-width: 514px){
@@ -747,7 +756,7 @@ swiper-btn {
         font-size: 0.7rem;
     }
     .heading2 {
-        margin-top: -4rem;
+        margin-top: -14rem;
         padding: 3px;
         border-radius: 6px;
         padding-top: 10px;
