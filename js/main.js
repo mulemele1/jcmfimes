@@ -54,3 +54,25 @@ closebtn.onclick = () => {
     // PAUSE WHEN CLICK ON BUTTON
     myvideo.pause();
 };
+
+//CAIXA DE PESQUISA
+const search =() =>{
+    const searchbox = document.getElementById("search-input").ariaValueMax.toUpperCase();
+    const nomefilmes = document.getElementById("todosfilmes");
+    const caixafilmes = document.querySelectorAll(".movie-box");
+    const nomecaixafilmes = nomefilmes.getElementsByTagName("h2");
+
+    for(var i=0; i < nomecaixafilmes.length; i++){
+        let match = caixafilmes[i].getElementsByTagName('2')[0];
+
+        if(match){
+            let textvalue = match.textContent || match.innerHTML
+
+            if(textvalue.toUpperCase().indexOf(searchbox) > -1){
+                caixafilmes[i].getElementsByClassName.display = "";
+            }else{
+                caixafilmes[i].getElementsByClassName.display = "none";
+            }
+        }
+    }
+}

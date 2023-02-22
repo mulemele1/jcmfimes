@@ -10,6 +10,16 @@
     scroll-padding-top: 2rem;
   }
 
+  /*.bg{
+    background: url(https://jcmfilmes.vercel.app/);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: 70%;
+  }*/
   /* ALGUMAS VARIAVEIS */
 
 :root {
